@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* 共通設定
+------------------------------ */
+html {
+  font-size: 100%;
+}
+html, body {
+  height: 100%;
+}
+body *, ::before, ::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ 角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+/*
+------------------------------ */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+h1+ p {
+  font-size: 1rem;
+  text-align: center;
+}
