@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+// 包む用
+.ly_wrap {
+  width: 100%;
+  display: block;
+}
+
+/* display
+------------------------------ */
+.ly_df {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.ly_dfcol {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.ly_df_jcc {
+  justify-content: center;
+}
+
+.ly_df_jca {
+  justify-content: space-around;
+}
+
+.ly_df_aic {
+  align-items: center;
+}
+/* width
+------------------------------ */
+.ly_mw1000 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* blocks
+------------------------------ */
+
+/* element
+------------------------------ */
+.el_snsBtn {
+  width: 240px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  // コンテンツの上下左右中央寄せ
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  // マテリアル系の装飾
+  border: 4px solid #000;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+// アイコン用の余白
+.el_icon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
