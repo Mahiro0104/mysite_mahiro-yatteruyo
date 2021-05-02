@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@for $value from 1 through 15 {
+  // padding 10~150px
+  .hp_pt#{$value * 10} {
+    padding-top: 10px * $value !important;
+  }
+  .hp_pb#{$value * 10} {
+    padding-bottom: 10px * $value !important;
+  }
+  .hp_pl#{$value * 10} {
+    padding-left: 10px * $value !important;
+  }
+  .hp_pr#{$value * 10} {
+    padding-right: 10px * $value !important;
+  }
+
+  // margin 10~150px
+  .hp_mt#{$value * 10} {
+    margin-top: 10px * $value !important;
+  }
+  .hp_mb#{$value * 10} {
+    margin-bottom: 10px * $value !important;
+  }
+  .hp_ml#{$value * 10} {
+    margin-left: 10px * $value !important;
+  }
+  .hp_mr#{$value * 10} {
+    margin-right: 10px * $value !important;
+  }
+}
